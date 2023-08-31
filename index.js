@@ -1,6 +1,3 @@
-Sure, here are inline comments explaining each line of the provided code:
-
-```javascript
 const express = require('express'); // Import the Express framework
 const app = express(); // Create an instance of the Express application
 const cors = require('cors'); // Import CORS middleware
@@ -153,6 +150,3 @@ app.get('/api/users/:_id/logs?', async (req, res) => {
 const listener = app.listen(process.env.PORT || 3000, () => {
   console.log('Your app is listening on port ' + listener.address().port); // Start the server and log the listening port
 });
-```
-
-Please note that the inline comments explain each line's functionality based on the provided code. If there's anything specific you'd like to understand in more detail, feel free to ask!
